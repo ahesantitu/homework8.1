@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4{
+	margin: 0;
+	padding: 0;
+}
+.cementic-markup{
+	background: green;
+	color:white;
+	text-align: center;
+	height: 60px;
+}
+
+/********header part start********/
+
+header{
+	background: gray;
+	overflow: hidden;
+}
+.logo{
+	float: left;
+	color:white;
+	padding-left: 10%;
+	line-height: 38px;
+}
+.nav-menu ul{
+	float: right;
+	padding-right: 10%;
+}
+
+.nav-menu ul li{
+	list-style: none;
+	text-align: center;
+	display: inline-block;
+}
+.nav-menu ul li a{
+	text-decoration: none;
+	color:white;
+	padding: 10px 16px;
+	line-height: 38px;
+}
+.nav-menu ul li a:hover{
+	background: red;
+	color: black;
+}
+/********Header part End********/
+
+/********Banner part Start********/
+.banner img{
+	width: 100%;
+	height: 500px;
+}
+
+/********Banner part End********/
+
+/********Service part Start********/
+
+.service{
+	width: 70%;
+	background: #57803b;
+	height: 180px;
+	overflow: hidden;
+	float: left;
+}
+.my{
+	width: 27%;
+	background: #70a23e;
+	color:white;
+	float: left;
+	margin:10px 10px;
+	padding: 10px;
+}
+
+
+/********Service part End********/
+aside{
+	width: 28%;
+	height: 350px;
+	background: #266a3d;
+	color:white;
+	padding: 10px;
+	overflow: hidden;
+	float: right;
+}
+
+/********Portfolio part Start********/
+.portfolio{
+	width: 70%;
+	background: #48bd50;
+	height: 180px;
+	overflow: hidden;
+	padding-top: 10px;
+}
+
+
+/********Portfolio part END********/
+.article{
+	background: #4d4146;
+	min-height: 250px;
+
+}
+.article article{
+	width: 45%;
+	background: #d7cdcd;
+	color: #020000;
+	margin: 25px 10px;
+	padding: 10px;
+	float: left;
+}
+form{
+    background: black;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    overflow: hidden;
+
+}
+.Contuct input{
+    padding: 10px;
+    margin-top: 9px;
+    border: none;
+}
+
+textarea{
+    margin-top: 10px;
+}
+button{
+    padding: 10px 15px;
+    background: green;
+    border: none;
+    color:white;
+    margin-top: 10px;
+}
+footer{
+	background: gray;
+	color:white;
+	padding: 10px;
+	text-align: center;
+
+}
